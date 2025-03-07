@@ -1,0 +1,435 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "team": "Our Team",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Tired of administrative chaos?",
+      "subtitle": "Let's bring order to your business.",
+      "cta": "Explore Our Services"
+    },
+    "services": {
+      "title": "How We Help",
+      "subtitle": "Professional secretary services tailored to your needs",
+      "cta": "View All Services"
+    },
+    "about": {
+      "title": "Why Choose Us",
+      "subtitle": "We bring organization and efficiency to your business",
+      "point1": "Experienced professionals",
+      "point2": "Tailored solutions",
+      "point3": "Time-saving services",
+      "cta": "Meet Our Team"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "testimonial1": {
+        "text": "SecretaryPro transformed our administrative processes. We're now more efficient than ever!",
+        "author": "Jane Smith, CEO"
+      },
+      "testimonial2": {
+        "text": "The team is responsive, professional, and incredibly detail-oriented. Highly recommended!",
+        "author": "Michael Johnson, Small Business Owner"
+      }
+    },
+    "cta": {
+      "title": "Ready to streamline your business?",
+      "subtitle": "Get started today and focus on what matters most.",
+      "button": "Contact Us"
+    },
+    "stickyNotes": {
+      "emailManagement": {
+        "title": "Email Management",
+        "content": "Reduce inbox overload and ensure timely responses to important messages."
+      },
+      "calendarOrganization": {
+        "title": "Calendar Organization",
+        "content": "Never double-book or miss an important meeting again."
+      },
+      "documentHandling": {
+        "title": "Document Handling",
+        "content": "Professional document creation, editing, and organization."
+      },
+      "clientCommunication": {
+        "title": "Client Communication",
+        "content": "Maintain consistent, professional communication with your clients."
+      }
+    },
+    "aboutPoints": {
+      "point1": {
+        "title": "Experienced professionals",
+        "description": "Our team has years of administrative assistance experience across various industries."
+      },
+      "point2": {
+        "title": "Tailored solutions",
+        "description": "We customize our services to your specific business needs and preferences."
+      },
+      "point3": {
+        "title": "Time-saving services",
+        "description": "Our efficient processes free up your time to focus on growing your business."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "From start to finish, we handle your administrative needs",
+    "timeline": {
+      "step1": {
+        "title": "Initial Assessment",
+        "description": "We analyze your current administrative processes and identify areas for improvement."
+      },
+      "step2": {
+        "title": "Email Management",
+        "description": "We organize, filter, and respond to emails according to your preferences."
+      },
+      "step3": {
+        "title": "Calendar Management",
+        "description": "We schedule meetings, set reminders, and ensure you never miss an important appointment."
+      },
+      "step4": {
+        "title": "Document Handling",
+        "description": "We create, edit, and organize documents to keep your business running smoothly."
+      },
+      "step5": {
+        "title": "Travel Arrangements",
+        "description": "We book flights, hotels, and transportation for your business trips."
+      },
+      "step6": {
+        "title": "Client Communication",
+        "description": "We maintain professional communication with your clients on your behalf."
+      }
+    },
+    "cta": "Get a Custom Quote",
+    "emailManagement": {
+      "title": "Email Management",
+      "description": "Our email management service helps you regain control of your inbox and ensures that important messages are responded to promptly and professionally.",
+      "features": {
+        "organization": {
+          "title": "Inbox Organization",
+          "description": "We create a logical folder structure and filtering system to keep your inbox tidy."
+        },
+        "filtering": {
+          "title": "Email Filtering",
+          "description": "We prioritize important messages and filter out unwanted emails so you see what matters most."
+        },
+        "response": {
+          "title": "Response Management",
+          "description": "We draft and send responses on your behalf, following your guidelines and communication style."
+        }
+      },
+      "cta": "Get Started"
+    },
+    "calendarManagement": {
+      "title": "Calendar Management",
+      "description": "Our calendar management service ensures your schedule is optimized and you never miss an important meeting.",
+      "features": {
+        "scheduling": {
+          "title": "Meeting Scheduling",
+          "description": "We coordinate with clients and partners to schedule meetings at times that work for everyone."
+        },
+        "reminders": {
+          "title": "Setting Reminders",
+          "description": "We set up reminders for important events, deadlines, and follow-ups."
+        },
+        "optimization": {
+          "title": "Schedule Optimization",
+          "description": "We organize your calendar to maximize productivity and minimize travel time between meetings."
+        }
+      },
+      "cta": "Get Started"
+    },
+    "documentHandling": {
+      "title": "Document Handling",
+      "description": "Our document handling service ensures all your business documents are created, edited, and organized professionally.",
+      "features": {
+        "creation": {
+          "title": "Document Creation",
+          "description": "We create professional documents including letters, reports, presentations, and more."
+        },
+        "editing": {
+          "title": "Document Editing",
+          "description": "We review and edit documents for grammar, spelling, formatting, and clarity."
+        },
+        "organization": {
+          "title": "Document Organization",
+          "description": "We implement a logical file system to make documents easy to find and access."
+        }
+      },
+      "cta": "Get Started"
+    },
+    "travelArrangements": {
+      "title": "Travel Arrangements",
+      "description": "Our travel arrangement service takes care of all the details of your business trips, ensuring a smooth and stress-free experience.",
+      "features": {
+        "flights": {
+          "title": "Flight Booking",
+          "description": "We research and book flights that match your schedule and preferences."
+        },
+        "accommodation": {
+          "title": "Accommodation",
+          "description": "We find and reserve hotels or other accommodations that meet your requirements."
+        },
+        "transportation": {
+          "title": "Transportation",
+          "description": "We arrange transportation at your destination, including car rentals or car services."
+        }
+      },
+      "cta": "Get Started"
+    },
+    "clientCommunication": {
+      "title": "Client Communication",
+      "description": "Our client communication service ensures your clients receive timely and professional responses, maintaining strong business relationships.",
+      "features": {
+        "correspondence": {
+          "title": "Client Correspondence",
+          "description": "We handle email and written communication with clients on your behalf."
+        },
+        "followUp": {
+          "title": "Follow-Up Management",
+          "description": "We ensure timely follow-ups with clients to maintain engagement and meet their needs."
+        },
+        "relationship": {
+          "title": "Client Relationship Building",
+          "description": "We help maintain and strengthen client relationships through consistent and professional communication."
+        }
+      },
+      "cta": "Get Started"
+    },
+    "processTitle": "Our Service Process",
+    "readyToStreamline": "Ready to streamline your business operations?",
+    "getInTouch": "Get in touch with us today to discuss how our services can help you focus on what matters most."
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "Dedicated professionals ready to assist you",
+    "members": {
+      "member1": {
+        "name": "Emily Johnson",
+        "position": "Lead Secretary",
+        "bio": "With over 10 years of experience, Emily specializes in executive assistance and document management.",
+        "funFact": "Emily speaks four languages fluently!"
+      },
+      "member2": {
+        "name": "David Smith",
+        "position": "Calendar Specialist",
+        "bio": "David ensures your schedule is optimized and you never miss an important meeting.",
+        "funFact": "David once organized a conference for 500 people in just 3 days!"
+      },
+      "member3": {
+        "name": "Sarah Williams",
+        "position": "Email Management Expert",
+        "bio": "Sarah transforms chaotic inboxes into organized communication systems.",
+        "funFact": "Sarah can type 120 words per minute!"
+      },
+      "member4": {
+        "name": "Michael Brown",
+        "position": "Document Specialist",
+        "bio": "Michael creates and manages professional documents with meticulous attention to detail.",
+        "funFact": "Michael has a background in graphic design!"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "reliability": {
+        "title": "Reliability",
+        "description": "We pride ourselves on being reliable and consistent. When we make a commitment, we deliver on it."
+      },
+      "confidentiality": {
+        "title": "Confidentiality",
+        "description": "We understand the sensitive nature of your business information and maintain strict confidentiality."
+      },
+      "adaptability": {
+        "title": "Adaptability",
+        "description": "We quickly adapt to your specific needs and changing requirements to ensure seamless assistance."
+      }
+    },
+    "visitOffice": "Visit Our Office",
+    "officeLocation": "We're located in the heart of the city, easily accessible by public transportation.",
+    "officeHours": "Office Hours",
+    "weekdays": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Transparent pricing for quality services",
+    "calculator": {
+      "title": "Service Quote Calculator",
+      "subtitle": "Select the services you need to get an estimate",
+      "services": {
+        "emailManagement": {
+          "title": "Email Management",
+          "price": 300
+        },
+        "calendarManagement": {
+          "title": "Calendar Management",
+          "price": 250
+        },
+        "documentHandling": {
+          "title": "Document Handling",
+          "price": 350
+        },
+        "travelArrangements": {
+          "title": "Travel Arrangements",
+          "price": 200
+        },
+        "clientCommunication": {
+          "title": "Client Communication",
+          "price": 300
+        }
+      },
+      "total": "Estimated Monthly Cost:",
+      "currency": "$",
+      "disclaimer": "Final pricing may vary based on specific requirements and volume.",
+      "cta": "Get a Custom Quote"
+    },
+    "packages": {
+      "title": "Service Packages",
+      "basic": {
+        "title": "Basic",
+        "price": "$500/month",
+        "features": [
+          "Email Management",
+          "Basic Calendar Management",
+          "Limited Document Handling"
+        ]
+      },
+      "standard": {
+        "title": "Standard",
+        "price": "$800/month",
+        "features": [
+          "Full Email Management",
+          "Complete Calendar Management",
+          "Document Creation and Handling",
+          "Basic Client Communication"
+        ]
+      },
+      "premium": {
+        "title": "Premium",
+        "price": "$1200/month",
+        "features": [
+          "Priority Email Management",
+          "Advanced Calendar Optimization",
+          "Comprehensive Document Services",
+          "Full Client Communication",
+          "Travel Arrangements"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "rightPackage": {
+        "question": "How do I know which package is right for me?",
+        "answer": "We recommend starting with our service calculator to get an estimate based on your specific needs. If you're still unsure, our team can provide a personal recommendation during a consultation."
+      },
+      "customize": {
+        "question": "Can I customize my package?",
+        "answer": "Yes, we offer fully customizable packages to match your specific business needs. Contact us to discuss your requirements, and we'll create a tailored solution for you."
+      },
+      "contract": {
+        "question": "Is there a contract or minimum commitment?",
+        "answer": "Our standard packages are offered on a month-to-month basis with no long-term commitments. However, we do offer discounts for clients who commit to longer terms."
+      },
+      "startTime": {
+        "question": "How quickly can you start working with me?",
+        "answer": "We can typically begin working with new clients within 1-2 business days after service agreement. More complex requirements may require additional time for setup and onboarding."
+      }
+    },
+    "readyToStart": "Ready to get started?",
+    "contactToday": "Contact us today to discuss your needs and find the perfect solution for your business.",
+    "contactUsNow": "Contact Us Now",
+    "getStarted": "Get Started"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with your administrative needs",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "quickRequest": {
+      "title": "Quick Request",
+      "options": {
+        "emailHelp": "I need help with emails",
+        "calendarHelp": "I need calendar management",
+        "documentHelp": "I need document assistance",
+        "generalInfo": "I want general information"
+      }
+    },
+    "responseTime": {
+      "title": "Response Time",
+      "text": "We typically respond within 1 business hour during working hours."
+    },
+    "chatbot": {
+      "title": "Quick Answers",
+      "placeholder": "Ask a question...",
+      "send": "Send"
+    },
+    "getInTouch": "Get in Touch",
+    "visitOffice": "Visit Our Office",
+    "officeLocation": "We're located in the heart of the city, easily accessible by public transportation.",
+    "officeHours": "Office Hours",
+    "weekdays": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "askQuestion": "Ask a question to get started"
+  },
+  "footer": {
+    "company": "© 2025 SecretaryPro. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "faq": "FAQ"
+    },
+    "companyInfo": "Professional secretary services to optimize your business operations.",
+    "contactInfo": {
+      "address": "123 Business Ave, Suite 100, New York, NY 10001",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@secretarypro.com"
+    },
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "legal": "Legal"
+  },
+  "pathNav": {
+    "title": "What do you need help with?",
+    "options": {
+      "emailManagement": "Email Management",
+      "calendarManagement": "Calendar Management",
+      "documentHandling": "Document Handling",
+      "travelArrangements": "Travel Arrangements",
+      "clientCommunication": "Client Communication"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "rightPackage": {
+        "question": "How do I know which package is right for me?",
+        "answer": "We recommend starting with our service calculator to get an estimate based on your specific needs. If you're still unsure, our team can provide a personal recommendation during a consultation."
+      },
+      "customize": {
+        "question": "Can I customize my package?",
+        "answer": "Yes, we offer fully customizable packages to match your specific business needs. Contact us to discuss your requirements, and we'll create a tailored solution for you."
+      },
+      "contract": {
+        "question": "Is there a contract or minimum commitment?",
+        "answer": "Our standard packages are offered on a month-to-month basis with no long-term commitments. However, we do offer discounts for clients who commit to longer terms."
+      },
+      "startTime": {
+        "question": "How quickly can you start working with me?",
+        "answer": "We can typically begin working with new clients within 1-2 business days after service agreement. More complex requirements may require additional time for setup and onboarding."
+      }
+    }
+  }
+}

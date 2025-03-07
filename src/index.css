@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cursor-color: rgba(14, 165, 233, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-neutral-800 bg-neutral-50;
+  overflow-x: hidden;
+}
+
+/* Custom cursor effect */
+.cursor-dot {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--cursor-color);
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition: width 0.3s, height 0.3s, background-color 0.3s;
+}
+
+/* Paperclip animation */
+.paperclip {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+  transform-origin: center;
+  animation: paperclipWiggle 10s ease-in-out infinite;
+}
+
+@keyframes paperclipWiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(-5deg); }
+  75% { transform: rotate(3deg); }
+}
+
+/* Horizontal timeline */
+.timeline-container {
+  @apply flex overflow-x-auto pb-8 snap-x snap-mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.primary.500') theme('colors.neutral.200');
+}
+
+.timeline-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.timeline-container::-webkit-scrollbar-track {
+  @apply bg-neutral-200 rounded-full;
+}
+
+.timeline-container::-webkit-scrollbar-thumb {
+  @apply bg-primary-500 rounded-full;
+}
+
+.timeline-item {
+  @apply min-w-[300px] snap-start p-6 rounded-lg shadow-md mx-4 bg-white border-l-4 border-primary-500 flex-shrink-0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item:hover {
+  @apply shadow-lg transform -translate-y-1;
+}
+
+/* Team member card */
+.team-card {
+  @apply relative overflow-hidden rounded-lg shadow-md transition-all duration-300;
+}
+
+.team-card-content {
+  @apply absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-6 flex flex-col justify-end text-white opacity-0 transition-opacity duration-300;
+}
+
+.team-card:hover .team-card-content {
+  @apply opacity-100;
+}
+
+/* Button styles */
+.btn {
+  @apply px-6 py-3 rounded-md font-medium transition-all duration-200 transform;
+}
+
+.btn-primary {
+  @apply bg-primary-600 text-white hover:bg-primary-700 active:scale-95;
+}
+
+.btn-secondary {
+  @apply bg-accent-500 text-white hover:bg-accent-600 active:scale-95;
+}
+
+.btn-outline {
+  @apply border-2 border-primary-600 text-primary-600 hover:bg-primary-50 active:scale-95;
+}
+
+/* Sticky note */
+.sticky-note {
+  @apply bg-accent-100 p-6 rounded-md shadow-md transform rotate-1 transition-all duration-300;
+}
+
+.sticky-note:hover {
+  @apply shadow-lg -rotate-1;
+}
+
+/* Language switcher */
+.language-switcher {
+  @apply relative inline-block;
+}
+
+.language-option {
+  @apply px-3 py-1 cursor-pointer transition-colors duration-200;
+}
+
+.language-option.active {
+  @apply font-bold text-primary-600;
+}
+
+/* Path navigation */
+.path-nav {
+  @apply flex flex-col gap-4 max-w-md mx-auto my-12;
+}
+
+.path-option {
+  @apply p-4 rounded-lg border-2 border-neutral-200 hover:border-primary-500 transition-all duration-200 cursor-pointer;
+}
+
+.path-option:hover {
+  @apply bg-primary-50;
+}
+
+/* Pricing calculator */
+.pricing-calculator {
+  @apply bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto;
+}
+
+.pricing-option {
+  @apply flex items-center gap-3 p-3 rounded-md hover:bg-neutral-100 transition-colors duration-200;
+}
+
+.pricing-option input[type="checkbox"] {
+  @apply w-5 h-5 accent-primary-500;
+}
+
+/* Back to top button */
+.back-to-top {
+  @apply fixed bottom-8 right-8 bg-primary-500 text-white p-3 rounded-full shadow-lg opacity-0 transition-all duration-300 z-50;
+}
+
+.back-to-top.visible {
+  @apply opacity-100;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-in-out;
+}
+
+/* Language transition effect */
+.language-transition {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.language-transition-enter {
+  opacity: 0;
+}
+
+.language-transition-enter-active {
+  opacity: 1;
+}
+
+.language-transition-exit {
+  opacity: 1;
+}
+
+.language-transition-exit-active {
+  opacity: 0;
+}
+
+/* Mobile responsiveness improvements */
+@media (max-width: 768px) {
+  .sticky-note {
+    @apply p-4;
+  }
+  
+  .btn {
+    @apply px-4 py-2 text-sm;
+  }
+  
+  .timeline-item {
+    @apply min-w-[250px] p-4;
+  }
+  
+  .team-card-content {
+    @apply p-4;
+  }
+  
+  .pricing-calculator {
+    @apply p-4;
+  }
+  
+  .path-option {
+    @apply p-3;
+  }
+}
